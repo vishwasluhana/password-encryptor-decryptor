@@ -18,4 +18,4 @@ It will encrypt or decrypt passwords.
 # Note
 Since everytime generator is generating new keys, if you have encrypted your password with old keys and generated new keys, the decryptor will not decrypt your password.
 
-To overcome this problem, backup your result.py file for future use (to encrypt and decrypt passwords).
+To overcome this problem, backup your result.py file for future use (to encrypt and decrypt old passwords).
