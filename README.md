@@ -8,7 +8,7 @@ Then it will append all the generated keys into result.py file.
 If result.py does not exist, generator will create it automatically.
 
 # check_duplicate.py
-it will check if there is any duplicate key for 2 or more characters.
+it will check if there is any duplicate key for one or more characters.
 
 In such case you need to run generator.py again to generate new keys.
 
