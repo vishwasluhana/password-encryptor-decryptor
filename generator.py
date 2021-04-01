@@ -16,6 +16,10 @@ long = list("A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".split(' '))
 numbers = list("1 2 3 4 5 6 7 8 9 0".split(' '))
 char = list("! @ # $ ^ & * ( ) _ - = + [ ] | : ; , . / ? ~".split(' '))
 all = [short, long, numbers, char]
+
+# Just to create empty file or to clear file if it's already created and written
+file = open('result.py', 'w')
+
 # File is opened in append mode
 file = open('result.py','a')
 file.write("hash_data = {")
