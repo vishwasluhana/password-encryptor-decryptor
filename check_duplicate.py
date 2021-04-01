@@ -10,3 +10,8 @@ for word in words.read().split("\""):
         else:
             seen.add(word)
     else: continue
+
+if len(dups) >= 1:
+	print("Duplicates found: ", len(dups))
+else:
+	print("No duplicates found")
