@@ -1,4 +1,4 @@
-words =  open("result.txt","r")
+words =  open("result.py","r")
 seen = set()
 dups = set()
 for word in words.read().split("\""):
