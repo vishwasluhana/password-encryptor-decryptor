@@ -5,7 +5,7 @@ It will generate random keys for all characters (upercase, lowercase, numbers, s
 
 Then it will append all the generated keys into result.py file.
 
-If result.py does not exist, it will create itself.
+If result.py does not exist, generator will create it automatically.
 
 # check_duplicate.py
 it will check if there is any duplicate key for 2 or more characters.
